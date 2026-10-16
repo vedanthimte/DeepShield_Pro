@@ -1,0 +1,79 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python / ML dependencies
+site-packages/
+
+# ML models and large weights
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+models/
+
+# Uploaded files and generated outputs
+uploads/*
+!uploads/.gitkeep
+outputs/
+temp/
+
+# Logs
+*.log
+logs/
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/build/
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local databases
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local server files
+*.pid
